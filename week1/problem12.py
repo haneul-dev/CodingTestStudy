@@ -1,7 +1,5 @@
-# 나머지 구하기
+# 짝수는 싫어요 
 
-def solution(num1, num2):
-    answer = 0
-    answer = num1 % num2
+def solution(n):
 
-    return answer
+    return [i for i in range(1, n+1, 2)]
